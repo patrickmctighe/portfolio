@@ -264,8 +264,8 @@ gap:.25em
   display:flex;
   align-items: center;
   justify-content: center;
-  gap:4em;
-padding:1em;
+  width:100%;
+
 
 }
 
@@ -273,17 +273,18 @@ padding:1em;
   background-color: #f7aa00;
   color:black;
   border: 1px solid black;
-  border-radius: 5px;
+  border-top:none;
   padding: .5em;
   text-decoration: none;
   transition: 0.5s;
+  width:20%;
 }
 
 .resumeButton:hover{
   background-color: black;
   color: #f7aa00;
   transition: 0.5s ;
-  transform: scale(1.4);
+ 
 }
 
 /*education*/
@@ -295,7 +296,7 @@ padding:1em;
 }
 .educationMainContainer{
 display: grid;
-grid-template-columns: 30vh 30vh 30vh 30vh;
+grid-template-columns: 30vh 30vh ;
 grid-template-rows: 10vw 10vw ;
 padding:3em;
 gap:4em;
@@ -306,8 +307,9 @@ gap:4em;
 .educationCont{
 display: flex;
 align-items: center;
-justify-content: center;
+justify-content: flex-start;
 flex-direction: column;
 line-height: .25em;
 
 }
+
