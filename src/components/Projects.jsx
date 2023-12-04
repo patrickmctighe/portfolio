@@ -45,7 +45,7 @@ export default function Projects() {
       <div className="proj">
         <Link
           className="projA"
-          to="/elden"
+          to="elden"
         >
           <img className="projImg" src="/project-images/elden.png" alt="" />
           <div className="projTitle">Elden Ring Memory game</div>
