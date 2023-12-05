@@ -11,8 +11,8 @@ export default function PlanIt() {
             <div className="projectIndvImg">
               <img src="/project-images/planIt.png"  alt="" className="indvProjImg" />
               <div className="liveGit">
-            <div className="live"> <a href="">Live Site</a></div>
-            <div className="git"> <a href="">Git Repository</a></div>
+            <div className="live"> <a  className="livea" href=" https://patrickmctighe.github.io/toDoList/" rel="noreferrer" target="_blank">Live Site</a></div>
+            <div className="git"> <a className="gita" href="https://github.com/patrickmctighe/toDoList" rel="noreferrer" target="_blank">Git Repository</a></div>
           </div>
         </div>
         <div className="projectDescriptionAndTech">

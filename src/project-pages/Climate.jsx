@@ -12,8 +12,8 @@ export default function Climate() {
             <div className="projectIndvImg">
               <img  src="/project-images/rooLogo.png"alt="" className="indvProjImg" />
               <div className="liveGit">
-            <div className="live"> <a href="">Live Site</a></div>
-            <div className="git"> <a href="">Git Repository</a></div>
+            <div className="live"> <a  className="livea" href="https://sweet-selkie-37c150.netlify.app" rel="noreferrer" target="_blank">Live Site</a></div>
+            <div className="git"> <a className="gita" href="https://github.com/patrickmctighe/virtual-store" rel="noreferrer" target="_blank">Git Repository</a></div>
           </div>
         </div>
         <div className="projectDescriptionAndTech">

@@ -12,8 +12,8 @@ export default function Elden() {
             <div className="projectIndvImg">
               <img src="/project-images/elden.png" alt="" className="indvProjImg" />
               <div className="liveGit">
-            <div className="live"> <a href="">Live Site</a></div>
-            <div className="git"> <a href="">Git Repository</a></div>
+            <div className="live"> <a  className="livea" href="https://sensational-halva-395ce3.netlify.app" rel="noreferrer" target="_blank">Live Site</a></div>
+            <div className="git"> <a className="gita" href="https://github.com/patrickmctighe/Memory-Game" rel="noreferrer" target="_blank">Git Repository</a></div>
           </div>
         </div>
         <div className="projectDescriptionAndTech">

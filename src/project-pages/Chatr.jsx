@@ -15,9 +15,9 @@ export default function Chatr() {
             alt="Chatr Project"
             className="indvProjImg"
           />
-          <div className="liveGit">
-            <div className="live"> <a  className="livea" href="">Live Site</a></div>
-            <div className="git"> <a className="gita" href="">Git Repository</a></div>
+           <div className="liveGit">
+            <div className="live"> <a  className="livea" href="https://warm-bienenstitch-c15fe2.netlify.app" rel="noreferrer" target="_blank">Live Site</a></div>
+            <div className="git"> <a className="gita" href="https://github.com/patrickmctighe/chatApp" rel="noreferrer" target="_blank">Git Repository</a></div>
           </div>
         </div>
         <div className="projectDescriptionAndTech">
