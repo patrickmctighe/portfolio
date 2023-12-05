@@ -23,7 +23,8 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  white-space: nowrap; /* Prevents text from wrapping to the next line */
+  white-space: nowrap;
+  flex: 1
 }
 
 .marquee span {
@@ -56,6 +57,7 @@ body{
   align-items: center;
   justify-content: center;
   width: 100vw;
+  flex: 1
 }
 /*site body*/
 .siteBody{
@@ -427,7 +429,7 @@ display:flex;
 align-items: center;
 justify-content: center;
 padding:2em;
-height:50vh;
+min-height:50vh;
 background-color: white;
 gap:1em;
 border-radius: 5px;
@@ -440,6 +442,7 @@ border-radius: 5px;
   width:35vw;
   line-height: 1.5;
   font-size: 1.25em;
+  overflow: auto;
 }
 .slick-initialized {
  
@@ -494,7 +497,8 @@ width:70vw;
   flex-direction: column;
   gap:2em;
   color:black;
-  height: 50vh;
+  flex:1;
+  overflow: auto; 
 }
 
 .languageText{
@@ -504,13 +508,18 @@ width:70vw;
   flex-direction: column;
   gap:2em;
   width:50%;
+  max-width: 100%;
+  overflow-wrap: break-word;
   text-align: center;
   line-height: 1.5;
   font-size: 1.3em;
+  flex:1;
 }
+
 .languagesList{
   display:flex;
   align-items: center;
   justify-content: center;
- gap:1.5em
+  gap:1.5em;
+  flex-wrap: wrap;
 }
