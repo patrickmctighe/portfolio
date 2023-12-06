@@ -1,0 +1,93 @@
+/*experience*/
+.experienceMain{
+
+}
+.slide{
+
+}
+.job {
+display:flex;
+align-items: center;
+justify-content: center;
+padding:2em;
+min-height:50vh;
+
+gap:1em;
+border-radius: 5px;
+}
+.jobDetails{
+ font-size: 1.75em;
+ line-height: 1.5;
+}
+.jobList{
+  width:35vw;
+  line-height: 1.5;
+  font-size: 1.25em;
+  overflow: auto;
+}
+.slick-initialized {
+ 
+}
+.sliderBox{
+  width:70vw;
+  
+}
+
+ /*xs*/
+ @media (max-width:639px){
+  .experienceMain{
+
+  }
+  .slide{
+  
+  }
+  .job {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding:.25em;
+  min-height:50vh;
+  
+  
+  border-radius: 5px;
+  }
+  .jobDetails{
+   font-size: .8rem;
+   
+  }
+  .jobList{
+    width:60vw;
+    line-height: 1.5;
+    font-size: .8rem;
+    overflow: auto;
+  }
+  .slick-initialized {
+   
+  }
+  .sliderBox{
+    width:74vw;
+    
+  }
+}
+
+/*sm*/
+@media (min-width:640px) and (max-width:767px){
+}
+
+/*md*/
+@media (min-width:768px) and (max-width:1023px){
+}
+
+/*lg*/
+@media (min-width:1024px) and (max-width:1279px){
+}
+
+/*xl*/
+@media (min-width:1280px) and (max-width:1535px){
+}
+
+/*2xl*/
+@media (min-width:1536px){
+}
+ 

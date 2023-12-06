@@ -12,45 +12,37 @@ export default function Climate() {
             <div className="projectIndvImg">
               <img  src="/project-images/rooLogo.png"alt="" className="indvProjImg" />
               <div className="liveGit">
-            <div className="live"> <a  className="livea" href="https://sweet-selkie-37c150.netlify.app" rel="noreferrer" target="_blank">Live Site</a></div>
-            <div className="git"> <a className="gita" href="https://github.com/patrickmctighe/virtual-store" rel="noreferrer" target="_blank">Git Repository</a></div>
+            <div className="live"> <a  className="livea" href="https://sweet-selkie-37c150.netlify.app" rel="noreferrer" target="_blank">Live</a></div>
+            <div className="git"> <a className="gita" href="https://github.com/patrickmctighe/virtual-store" rel="noreferrer" target="_blank">Git</a></div>
           </div>
         </div>
         <div className="projectDescriptionAndTech">
           <div className="projectDescription">
-            Until recently, the prevailing view assumed lorem ipsum was born as
-            a nonsense text.Until recently, the prevailing view assumed lorem
-            ipsum was born as a nonsense text. “It's not Latin, though it looks
-            like it, and it actually says nothing,” Before & After magazine
-            answered a curious reader, “Its ‘words’ loosely approximate the
-            frequency with which letters occur in English, which is why at a
-            glance it looks pretty real.” “It's not Latin, though it looks like
-            it, and it actually says nothing,” Before & After magazine answered
-            a curious reader, “Its ‘words’ loosely approximate the frequency
-            with which letters occur in English, which is why at a glance it
-            looks pretty real.”
+            <p>
+
+This project constitutes an online store specializing in the sale of weather control systems. It is a highly reactive site that demonstrates extensive use of props and setStates. Furthermore, it serves as an excellent example of React Router functionality, showcasing the synergistic effects achieved by integrating both React and vanilla JavaScript functions.</p>
           </div>
           <div className="projectTech">
             {" "}
             <div className="skillComp">
-              <img className="skillImgs" src="/skill-logos/pug.png" alt="" />
+              <img className="projSkillImgs" src="/skill-logos/pug.png" alt="" />
               <div className="skillTitle">Pug</div>
             </div>
             <div className="skillComp">
               <img
-                className="skillImgs"
+                className="projSkillImgs"
                 src="/skill-logos/tailwind1.png"
                 alt=""
               />
               <div className="skillTitle">Tailwind CSS</div>
             </div>
             <div className="skillComp">
-              <img className="skillImgs" src="/skill-logos/vite.png" alt="" />
+              <img className="projSkillImgs" src="/skill-logos/vite.png" alt="" />
               <div className="skillTitle">Vite</div>
             </div>
             <div className="skillComp">
               <img
-                className="skillImgs"
+                className="projSkillImgs"
                 src="/skill-logos/github3.png"
                 alt=""
               />

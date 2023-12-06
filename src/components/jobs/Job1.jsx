@@ -22,7 +22,7 @@ safety.</li>
 operating instructions and educating staff on proper use.</li>
 <li>Utilized various preparation and cooking methods to create menu items in
 accordance with recipes.</li>
-<li>Trained new employees to perform duties.</li>
+
 <li>Consistently maintained high levels of cleanliness, organization, storage
 and sanitation of food and beverage products to ensure quality.</li>
 

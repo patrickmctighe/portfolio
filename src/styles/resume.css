@@ -1,0 +1,118 @@
+/*Resume*/
+.resumeMain{
+    background-color: #f7aa00;
+    width:100%;
+    height:100%;
+    color:black;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap:1.5em
+  }
+  
+  .resumeNav{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+  
+  
+  }
+  
+  .resumeButton{
+    background-color: #f7aa00;
+    color:black;
+    border: 1px solid black;
+    border-top:none;
+    padding: .5em;
+    text-decoration: none;
+    transition: 0.5s;
+    width:20%;
+    height: 5vh;
+  }
+  .resumeButtonActive {
+    background-color: black;
+    color: #f7aa00;
+    transition: 0.5s;
+   
+  }
+  .resumeButton:hover{
+    background-color: black;
+    color: #f7aa00;
+    transition: 0.5s ;
+   
+  }
+  
+ 
+ /*xs*/
+@media (max-width:639px){
+
+  .resumeMain{
+    background-color: #f7aa00;
+    width:100%;
+    height:100%;
+    color:black;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap:.7em
+  }
+  
+  .resumeNav{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+ 
+  
+  }
+  
+  .resumeButton{
+    background-color: #f7aa00;
+    color:black;
+    border: 1px solid black;
+    border-top:none;
+    padding: .5em;
+    text-decoration: none;
+    transition: 0.5s;
+    width:20%;
+    height: 5vh;
+    font-size: .7rem;
+  }
+  .resumeButtonActive {
+    background-color: black;
+    color: #f7aa00;
+    transition: 0.5s;
+   
+  }
+  .resumeButton:hover{
+    background-color: black;
+    color: #f7aa00;
+    transition: 0.5s ;
+   
+  }
+  
+}
+
+/*sm*/
+@media (min-width:640px) and (max-width:767px){
+}
+
+/*md*/
+@media (min-width:768px) and (max-width:1023px){
+}
+
+/*lg*/
+@media (min-width:1024px) and (max-width:1279px){
+}
+
+/*xl*/
+@media (min-width:1280px) and (max-width:1535px){
+}
+
+/*2xl*/
+@media (min-width:1536px){
+}
+ 

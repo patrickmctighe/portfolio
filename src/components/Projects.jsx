@@ -11,6 +11,7 @@ import Weather from "../project-pages/Weather";
 export default function Projects() {
   return (
     <div className="projectsMain">
+      <div className="projectsMainContainer">
       <div className="proj">
         <Link
           className="projA"
@@ -59,7 +60,7 @@ export default function Projects() {
             src="/project-images/membersOnly.png"
             alt=""
           />
-          <div className="projTitle">Spy Private Messanger</div>
+          <div className="projTitle">Secret Agent Message Board</div>
         </Link>
       </div>
 
@@ -85,6 +86,6 @@ export default function Projects() {
           <div className="projTitle">Etch-A-Sketch</div>
         </Link>
       </div>
-    </div>
+    </div></div>
   );
 }

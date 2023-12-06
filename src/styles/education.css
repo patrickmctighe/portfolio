@@ -1,0 +1,84 @@
+/*education*/
+.educationMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:black;
+  }
+  .educationMainContainer{
+  display: grid;
+  grid-template-columns: 30vh 30vh ;
+  grid-template-rows: 10vw 10vw ;
+  padding:3em;
+  gap:4em;
+  
+  
+  }
+  
+  .educationCont{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  line-height: .25em;
+  
+  }
+
+ /*xs*/
+@media (max-width:639px){
+  .educationMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:black;
+  }
+  .educationMainContainer{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:3em;
+  gap:.5em;
+  
+  
+  }
+  
+  .educationCont{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  line-height: .1em;
+  
+  }
+  .educationIndvTitle{
+      font-size: 1rem;
+  }
+  .educationText{
+      font-size: .75rem;
+  }
+
+}
+
+/*sm*/
+@media (min-width:640px) and (max-width:767px){
+}
+
+/*md*/
+@media (min-width:768px) and (max-width:1023px){
+}
+
+/*lg*/
+@media (min-width:1024px) and (max-width:1279px){
+}
+
+/*xl*/
+@media (min-width:1280px) and (max-width:1535px){
+}
+
+/*2xl*/
+@media (min-width:1536px){
+}
+ 

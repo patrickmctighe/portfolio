@@ -11,45 +11,34 @@ export default function Etchy() {
             <div className="projectIndvImg">
               <img src="/project-images/etchy.png" alt="" className="indvProjImg" />
               <div className="liveGit">
-            <div className="live"> <a  className="livea" href="https://patrickmctighe.github.io/etch-a-sketch/" rel="noreferrer" target="_blank">Live Site</a></div>
-            <div className="git"> <a className="gita" href="https://github.com/patrickmctighe/etch-a-sketch" rel="noreferrer" target="_blank">Git Repository</a></div>
+            <div className="live"> <a  className="livea" href="https://patrickmctighe.github.io/etch-a-sketch/" rel="noreferrer" target="_blank">Live</a></div>
+            <div className="git"> <a className="gita" href="https://github.com/patrickmctighe/etch-a-sketch" rel="noreferrer" target="_blank">Git</a></div>
           </div>
         </div>
         <div className="projectDescriptionAndTech">
           <div className="projectDescription">
-            Until recently, the prevailing view assumed lorem ipsum was born as
-            a nonsense text.Until recently, the prevailing view assumed lorem
-            ipsum was born as a nonsense text. “It's not Latin, though it looks
-            like it, and it actually says nothing,” Before & After magazine
-            answered a curious reader, “Its ‘words’ loosely approximate the
-            frequency with which letters occur in English, which is why at a
-            glance it looks pretty real.” “It's not Latin, though it looks like
-            it, and it actually says nothing,” Before & After magazine answered
-            a curious reader, “Its ‘words’ loosely approximate the frequency
-            with which letters occur in English, which is why at a glance it
-            looks pretty real.”
-          </div>
+          Presenting a nostalgic trip down memory lane with a digital rendition of the classic toy Etch-A-Sketch! This project holds sentimental value as one of my initial coding ventures, embodying simplicity and fundamental coding principles. While it maintains a basic structure, it serves as a noteworthy example of utilizing vanilla JavaScript, CSS, and HTML. Leveraging the power of grid and flexbox, the project showcases the implementation of custom-made functions, adding a touch of creativity to this digital adaptation.          </div>
           <div className="projectTech">
             {" "}
             <div className="skillComp">
-              <img className="skillImgs" src="/skill-logos/pug.png" alt="" />
+              <img className="projSkillImgs" src="/skill-logos/pug.png" alt="" />
               <div className="skillTitle">Pug</div>
             </div>
             <div className="skillComp">
               <img
-                className="skillImgs"
+                className="projSkillImgs"
                 src="/skill-logos/tailwind1.png"
                 alt=""
               />
               <div className="skillTitle">Tailwind CSS</div>
             </div>
             <div className="skillComp">
-              <img className="skillImgs" src="/skill-logos/vite.png" alt="" />
+              <img className="projSkillImgs" src="/skill-logos/vite.png" alt="" />
               <div className="skillTitle">Vite</div>
             </div>
             <div className="skillComp">
               <img
-                className="skillImgs"
+                className="projSkillImgs"
                 src="/skill-logos/github3.png"
                 alt=""
               />

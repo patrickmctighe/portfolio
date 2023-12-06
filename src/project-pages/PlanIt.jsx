@@ -11,45 +11,35 @@ export default function PlanIt() {
             <div className="projectIndvImg">
               <img src="/project-images/planIt.png"  alt="" className="indvProjImg" />
               <div className="liveGit">
-            <div className="live"> <a  className="livea" href=" https://patrickmctighe.github.io/toDoList/" rel="noreferrer" target="_blank">Live Site</a></div>
-            <div className="git"> <a className="gita" href="https://github.com/patrickmctighe/toDoList" rel="noreferrer" target="_blank">Git Repository</a></div>
+            <div className="live"> <a  className="livea" href=" https://patrickmctighe.github.io/toDoList/" rel="noreferrer" target="_blank">Live</a></div>
+            <div className="git"> <a className="gita" href="https://github.com/patrickmctighe/toDoList" rel="noreferrer" target="_blank">Git</a></div>
           </div>
         </div>
         <div className="projectDescriptionAndTech">
           <div className="projectDescription">
-            Until recently, the prevailing view assumed lorem ipsum was born as
-            a nonsense text.Until recently, the prevailing view assumed lorem
-            ipsum was born as a nonsense text. “It's not Latin, though it looks
-            like it, and it actually says nothing,” Before & After magazine
-            answered a curious reader, “Its ‘words’ loosely approximate the
-            frequency with which letters occur in English, which is why at a
-            glance it looks pretty real.” “It's not Latin, though it looks like
-            it, and it actually says nothing,” Before & After magazine answered
-            a curious reader, “Its ‘words’ loosely approximate the frequency
-            with which letters occur in English, which is why at a glance it
-            looks pretty real.”
+            <p>Plan-It is a website I created to assist individuals in organizing their daily tasks. This platform exemplifies my proficiency in utilizing what some might consider the basics. Using only vanilla JavaScript, HTML, and CSS, I believe it showcases a commendable blend of seamless functionality and appealing design work.</p>
           </div>
           <div className="projectTech">
             {" "}
             <div className="skillComp">
-              <img className="skillImgs" src="/skill-logos/pug.png" alt="" />
+              <img className="projSkillImgs" src="/skill-logos/pug.png" alt="" />
               <div className="skillTitle">Pug</div>
             </div>
             <div className="skillComp">
               <img
-                className="skillImgs"
+                className="projSkillImgs"
                 src="/skill-logos/tailwind1.png"
                 alt=""
               />
               <div className="skillTitle">Tailwind CSS</div>
             </div>
             <div className="skillComp">
-              <img className="skillImgs" src="/skill-logos/vite.png" alt="" />
+              <img className="projSkillImgs" src="/skill-logos/vite.png" alt="" />
               <div className="skillTitle">Vite</div>
             </div>
             <div className="skillComp">
               <img
-                className="skillImgs"
+                className="projSkillImgs"
                 src="/skill-logos/github3.png"
                 alt=""
               />

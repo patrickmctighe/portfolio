@@ -12,45 +12,35 @@ export default function Elden() {
             <div className="projectIndvImg">
               <img src="/project-images/elden.png" alt="" className="indvProjImg" />
               <div className="liveGit">
-            <div className="live"> <a  className="livea" href="https://sensational-halva-395ce3.netlify.app" rel="noreferrer" target="_blank">Live Site</a></div>
-            <div className="git"> <a className="gita" href="https://github.com/patrickmctighe/Memory-Game" rel="noreferrer" target="_blank">Git Repository</a></div>
+            <div className="live"> <a  className="livea" href="https://sensational-halva-395ce3.netlify.app" rel="noreferrer" target="_blank">Live</a></div>
+            <div className="git"> <a className="gita" href="https://github.com/patrickmctighe/Memory-Game" rel="noreferrer" target="_blank">Git</a></div>
           </div>
         </div>
         <div className="projectDescriptionAndTech">
           <div className="projectDescription">
-            Until recently, the prevailing view assumed lorem ipsum was born as
-            a nonsense text.Until recently, the prevailing view assumed lorem
-            ipsum was born as a nonsense text. “It's not Latin, though it looks
-            like it, and it actually says nothing,” Before & After magazine
-            answered a curious reader, “Its ‘words’ loosely approximate the
-            frequency with which letters occur in English, which is why at a
-            glance it looks pretty real.” “It's not Latin, though it looks like
-            it, and it actually says nothing,” Before & After magazine answered
-            a curious reader, “Its ‘words’ loosely approximate the frequency
-            with which letters occur in English, which is why at a glance it
-            looks pretty real.”
-          </div>
+          "The Elden Ring Memory Game" is a themed memory challenge that I created to familiarize myself with React's features while delivering an enjoyable gaming experience. Leveraging GIMP, I customized images from the Elden Ring game by removing backgrounds and enhancing visuals. CSS was employed to incorporate animations to the game cards, enhancing the overall interactive appeal.
+        </div>
           <div className="projectTech">
             {" "}
             <div className="skillComp">
-              <img className="skillImgs" src="/skill-logos/pug.png" alt="" />
+              <img className="projSkillImgs" src="/skill-logos/pug.png" alt="" />
               <div className="skillTitle">Pug</div>
             </div>
             <div className="skillComp">
               <img
-                className="skillImgs"
+                className="projSkillImgs"
                 src="/skill-logos/tailwind1.png"
                 alt=""
               />
               <div className="skillTitle">Tailwind CSS</div>
             </div>
             <div className="skillComp">
-              <img className="skillImgs" src="/skill-logos/vite.png" alt="" />
+              <img className="projSkillImgs" src="/skill-logos/vite.png" alt="" />
               <div className="skillTitle">Vite</div>
             </div>
             <div className="skillComp">
               <img
-                className="skillImgs"
+                className="projSkillImgs"
                 src="/skill-logos/github3.png"
                 alt=""
               />

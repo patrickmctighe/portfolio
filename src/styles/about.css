@@ -1,0 +1,49 @@
+.aboutMain{
+    background-color: #db2d43;
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  .aboutText{
+    width: 50%;
+    height: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+   
+  }
+
+ /*xs*/
+@media (max-width:639px){
+
+}
+
+/*sm*/
+@media (min-width:640px) and (max-width:767px){
+
+}
+
+/*md*/
+@media (min-width:768px) and (max-width:1023px){
+ 
+}
+
+/*lg*/
+@media (min-width:1024px) and (max-width:1279px){
+
+}
+
+/*xl*/
+@media (min-width:1280px) and (max-width:1535px){
+ 
+}
+
+/*2xl*/
+@media (min-width:1536px){
+}

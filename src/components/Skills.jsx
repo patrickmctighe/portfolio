@@ -84,7 +84,7 @@ export default function Skills() {
         <div className="skillTitle">render</div>
       </div>
       <div className="skillComp">
-        <img className="skillImgs" src="/skill-logos/gimp.png" alt="" />
+        <img className="skillImgs" src="/skill-logos/jwt1.svg" alt="" />
         <div className="skillTitle">GIMP</div>
       </div>
     </div></div>

@@ -12,28 +12,20 @@ export default function Armored() {
             <div className="projectIndvImg">
               <img src="/project-images/armored1.png"alt="" className="indvProjImg" />
               <div className="liveGit">
-            <div className="live"> <a  className="livea" href=" https://expressinv.onrender.com" rel="noreferrer" target="_blank">Live Site</a></div>
-            <div className="git"> <a className="gita" href="https://github.com/patrickmctighe/express-inventory" rel="noreferrer" target="_blank">Git Repository</a></div>
+            <div className="live"> <a  className="livea" href=" https://expressinv.onrender.com" rel="noreferrer" target="_blank">Live</a></div>
+            <div className="git"> <a className="gita" href="https://github.com/patrickmctighe/express-inventory" rel="noreferrer" target="_blank">Git</a></div>
           </div>
         </div>
         <div className="projectDescriptionAndTech">
           <div className="projectDescription">
-            Until recently, the prevailing view assumed lorem ipsum was born as
-            a nonsense text.Until recently, the prevailing view assumed lorem
-            ipsum was born as a nonsense text. “It's not Latin, though it looks
-            like it, and it actually says nothing,” Before & After magazine
-            answered a curious reader, “Its ‘words’ loosely approximate the
-            frequency with which letters occur in English, which is why at a
-            glance it looks pretty real.” “It's not Latin, though it looks like
-            it, and it actually says nothing,” Before & After magazine answered
-            a curious reader, “Its ‘words’ loosely approximate the frequency
-            with which letters occur in English, which is why at a glance it
-            looks pretty real.”
+            <p>
+
+"Files of Rubicon" is a database I developed for the weapons featured in the new Armored Core video game. Leveraging MongoDB, EJS, and Express, this project serves as both an app and website, intended for continuous contributions and updates from fans of the game. It incorporates a responsive CSS design with a color palette reminiscent of the game, ensuring a seamless and visually appealing user experience.</p>
           </div>
           <div className="projectTech">
             {" "}
             <div className="skillComp">
-              <img className="skillImgs" src="/skill-logos/pug.png" alt="" />
+              <img className="projSkillImgs"src="/skill-logos/pug.png" alt="" />
               <div className="skillTitle">Pug</div>
             </div>
             <div className="skillComp">
@@ -45,12 +37,12 @@ export default function Armored() {
               <div className="skillTitle">Tailwind CSS</div>
             </div>
             <div className="skillComp">
-              <img className="skillImgs" src="/skill-logos/vite.png" alt="" />
+              <img className="projSkillImgs"src="/skill-logos/vite.png" alt="" />
               <div className="skillTitle">Vite</div>
             </div>
             <div className="skillComp">
               <img
-                className="skillImgs"
+               className="projSkillImgs"
                 src="/skill-logos/github3.png"
                 alt=""
               />

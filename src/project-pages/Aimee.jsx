@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 export default function Aimee() {
     return (
         <div className="individualProjectMain">
+               <div className="individualProjectMainContent">
               <div className="backCont">
               <Link to="/projects" className="backButton">
           <span className="material-symbols-outlined">arrow_back_ios</span>
@@ -11,53 +12,35 @@ export default function Aimee() {
             <div className="projectIndvImg">
               <img src="/project-images/aimee.png" alt="" className="indvProjImg" />
               <div className="liveGit">
-            <div className="live"> <a  className="livea" href="https://aimeekeeble.com" rel="noreferrer" target="_blank">Live Site</a></div>
-            <div className="git"> <a className="gita"  href="https://github.com/patrickmctighe/restaurant" rel="noreferrer" target="_blank">Git Repository</a></div>
+            <div className="live"> <a  className="livea" href="https://aimeekeeble.com" rel="noreferrer" target="_blank">Live</a></div>
+            <div className="git"> <a className="gita"  href="https://github.com/patrickmctighe/restaurant" rel="noreferrer" target="_blank">Git</a></div>
           </div>
         </div>
         <div className="projectDescriptionAndTech">
           <div className="projectDescription">
-            Until recently, the prevailing view assumed lorem ipsum was born as
-            a nonsense text.Until recently, the prevailing view assumed lorem
-            ipsum was born as a nonsense text. “It's not Latin, though it looks
-            like it, and it actually says nothing,” Before & After magazine
-            answered a curious reader, “Its ‘words’ loosely approximate the
-            frequency with which letters occur in English, which is why at a
-            glance it looks pretty real.” “It's not Latin, though it looks like
-            it, and it actually says nothing,” Before & After magazine answered
-            a curious reader, “Its ‘words’ loosely approximate the frequency
-            with which letters occur in English, which is why at a glance it
-            looks pretty real.”
+          <p>This website was crafted for writer Aimee Keeble, featuring a simple and responsive design with an old-school aesthetic and a catchy color palette. The static site, built using React, includes an image slider for visual appeal and showcases Aimee's published works with links for readers to explore or purchase. An "About Me" section provides additional insights. Hosted on Netlify, the site prioritizes a seamless user experience.
+</p>
           </div>
           <div className="projectTech">
-            {" "}
-            <div className="skillComp">
-              <img className="skillImgs" src="/skill-logos/pug.png" alt="" />
-              <div className="skillTitle">Pug</div>
-            </div>
-            <div className="skillComp">
-              <img
-                className="skillImgs"
-                src="/skill-logos/tailwind1.png"
-                alt=""
-              />
-              <div className="skillTitle">Tailwind CSS</div>
-            </div>
-            <div className="skillComp">
-              <img className="skillImgs" src="/skill-logos/vite.png" alt="" />
-              <div className="skillTitle">Vite</div>
-            </div>
-            <div className="skillComp">
-              <img
-                className="skillImgs"
-                src="/skill-logos/github3.png"
-                alt=""
-              />
-              <div className="skillTitle">GitHub</div>
-            </div>
+          <div className="skillComp">
+        <img className="projSkillImgs" src="/skill-logos/react3.png" alt="" />
+        <div className="skillTitle">React</div>
+      </div>
+      <div className="skillComp">
+        <img className="projSkillImgs" src="/skill-logos/js.png" alt="" />
+        <div className="skillTitle">JavaScript</div>
+      </div>
+      <div className="skillComp">
+        <img className="projSkillImgs" src="/skill-logos/css.png" alt="" />
+        <div className="skillTitle">CSS</div>
+      </div>
+      <div className="skillComp">
+        <img className="projSkillImgs" src="/skill-logos/html.png" alt="" />
+        <div className="skillTitle">HTML</div>
+      </div>
           </div>
         </div>
       </div>
-    </div>
+    </div></div>
   );
 }
