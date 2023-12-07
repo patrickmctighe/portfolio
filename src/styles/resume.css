@@ -79,7 +79,7 @@
     transition: 0.5s;
     width:20%;
     height: 5vh;
-    font-size: .7rem;
+    font-size: .64rem;
   }
   .resumeButtonActive {
     background-color: black;

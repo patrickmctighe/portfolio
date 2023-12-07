@@ -7,14 +7,18 @@
     align-items: center;
     justify-content: center;
     color:black;
-    gap:5em
+    gap:4.5em
   }
   .skillsExplination{
     display:flex;
     align-items: center;
     justify-content: center;
-   width:30vw
-    
+    flex-direction: column;
+   width:30vw;
+   line-height:1.5em;
+   text-align: center;
+  font-size: 1.25em;
+  gap:2em
   }
   .skillsImgsMain{
     background-color: #c7f2e3;
@@ -41,6 +45,10 @@
     width: auto;
   }
 
+  .computerImg{
+
+  }
+
 
  /*xs*/
  @media (max-width:639px){
@@ -54,21 +62,25 @@
     justify-content: center;
     flex-direction: column;
     color:black;
-    gap:3em
+    gap:.1em
   }
   .skillsExplination{
     display:flex;
     align-items: center;
     justify-content: center;
-   width:60vw
-    
+    flex-direction: column;
+   width:60vw;
+   line-height:1.1.2rem;
+   text-align: center;
+  font-size: .9rem;
+  gap:2em
   }
   .skillsImgsMain{
     background-color: #c7f2e3;
     
     display: grid;
     grid-template-columns:8vh 8vh 8vh 8vh  ;
-    grid-template-rows:15vw 15vw 15vw 15vw 15vw  ;
+    grid-template-rows:14vw 14vw 14vw 14vw 14vw  ;
     place-items: center;
     justify-content: center;
     z-index: 1;
@@ -90,6 +102,10 @@
 
   .skillTitle{
     display:none;
+  }
+
+  .computerImg{
+display:none;
   }
 
 }

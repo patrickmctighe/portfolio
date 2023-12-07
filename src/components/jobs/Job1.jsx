@@ -18,11 +18,9 @@ performance strategies.</li>
 <li>Received, organized and rotated paper goods and food ingredients.
 Oversaw meal preparation and monitored food handling to encourage
 safety.</li>
-<li>Kept kitchen equipment properly functioning by following manufacturer's
-operating instructions and educating staff on proper use.</li>
+
 <li>Utilized various preparation and cooking methods to create menu items in
 accordance with recipes.</li>
-
 <li>Consistently maintained high levels of cleanliness, organization, storage
 and sanitation of food and beverage products to ensure quality.</li>
 

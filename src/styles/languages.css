@@ -38,6 +38,40 @@
 
  /*xs*/
  @media (max-width:639px){
+  .languagesMain{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:.1em;
+    color:black;
+    flex:1;
+    overflow: auto; 
+  }
+  
+  .languageText{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:1em;
+    width:90%;
+    overflow-wrap: break-word;
+    text-align: center;
+    line-height: 1.1;
+    font-size: .85em;
+    flex:1;
+  }
+  
+  .languagesList{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:1.5em;
+    flex-wrap: wrap;
+    height: 6vh;
+  }
+
 }
 
 /*sm*/

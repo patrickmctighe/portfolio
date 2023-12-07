@@ -1,7 +1,7 @@
 export default function Education() {
   return (
     <div className="educationMain"> 
-    <h1 className="educationTitle">Education</h1>
+    
       <div className="educationMainContainer">
      
         <div className="educationCont" id="cont1">

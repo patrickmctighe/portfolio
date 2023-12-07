@@ -96,7 +96,7 @@
   .projSkillImgs{
     height: 4vh;
     width: auto;
-    padding:
+    
   }
 
 
@@ -133,15 +133,15 @@
     align-items: center;
     justify-content: center;
   
-    gap:1.5em;
+    gap:1em;
   width:95%;
   
   }
   .projectDescription{
-    width:75%;
+    width:87%;
     text-align: center;
-    font-size: 1.1rem;
-    line-height: 1.2;
+    font-size: 1rem;
+    line-height: 1.1;
   }
   .projectTech{
     display:flex;
@@ -179,12 +179,9 @@
     transition: 0.5s;
   }
   .backCont{
-    display:flex;
-    align-self: flex-start;
-    justify-content: flex-start;
-    padding-bottom:.1em;
-    margin:0px;
+    display:none;
   }
+ 
   .indvProjImg{
     height: auto;
     width: 50vw ;
@@ -196,7 +193,7 @@
   align-items: center;
   justify-content: center;
  flex-direction: column;
-  gap:2em;
+  gap:1em;
   
   }
 

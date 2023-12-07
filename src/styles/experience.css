@@ -47,20 +47,20 @@ border-radius: 5px;
   justify-content: center;
   flex-direction: column;
   padding:.25em;
-  min-height:50vh;
-  
-  
+height:62vh;
   border-radius: 5px;
+  gap:.1em;
   }
   .jobDetails{
    font-size: .8rem;
    
   }
   .jobList{
-    width:60vw;
+    width:99%;
     line-height: 1.5;
-    font-size: .8rem;
+    font-size: .75rem;
     overflow: auto;
+    padding-bottom: .7em;
   }
   .slick-initialized {
    
@@ -68,6 +68,9 @@ border-radius: 5px;
   .sliderBox{
     width:74vw;
     
+  }
+  .swiper-button-prev, .swiper-button-next{
+    display:none;
   }
 }
 
