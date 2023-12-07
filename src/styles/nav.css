@@ -65,6 +65,70 @@
 
  /*xs*/
  @media (max-width:639px){
+  .nav{
+    display:flex;
+    flex-direction: column;
+    gap:4em;
+     width:20%;
+     flex:1;
+     
+  }
+  #aboutLink{
+    background-color:#db2d43;
+   color: black;
+   text-decoration: none;
+   
+  }
+  #projectsLink{
+    background-color: #87e5da;
+   color:black;
+   text-decoration: none;
+  }
+  #skillsLink{
+    background-color:#c7f2e3;
+   color:black;
+   text-decoration: none;
+  }
+  #resumeLink{
+    background-color: #f7aa00;
+   color:black;
+   text-decoration: none;
+  }
+  
+  .hexagon {
+    width: 15vw; 
+    height: 2vh; 
+    /* transform: skew(50deg);
+    rotate: 50deg; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    padding-right: 2em;
+    border: 1em solid white;
+    border-radius: .1em;
+    flex:1;
+    transition: 0.1s;
+  }
+  .hexagon:hover{
+  
+    transition: 5s;
+    rotate: 0deg;
+    transform: scale(.90);
+  }
+  
+  .hexagon.active {
+   border:none;
+    transition: .5s;
+    rotate: 0deg;
+    transform: scale(1.5) skew(0deg);
+    justify-content: center;
+    text-align: center;
+    width:16vw;
+   
+  }
+ 
+  
 }
 
 /*sm*/

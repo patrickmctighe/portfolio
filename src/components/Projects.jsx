@@ -57,7 +57,7 @@ export default function Projects() {
         <Link className="projA" to="members">
           <img
             className="projImg"
-            src="/project-images/membersOnly.png"
+            src="/project-images/membersOnly1.png"
             alt=""
           />
           <div className="projTitle">Secret Agent Message Board</div>

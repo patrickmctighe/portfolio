@@ -8,7 +8,7 @@ body{
 /*xs*/
 @media (max-width:639px){
   body{
-    background-color:red;
+    background-color:black;
   };
 }
 

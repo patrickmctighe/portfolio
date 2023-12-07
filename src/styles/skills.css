@@ -20,8 +20,8 @@
     background-color: #c7f2e3;
     
     display: grid;
-    grid-template-columns:12vh 12vh 12vh 12vh 12vh  ;
-    grid-template-rows:15vw 15vw 15vw 15vw   ;
+    grid-template-columns:12vh 12vh 12vh 12vh 12vh ;
+    grid-template-rows:8vw 8vw 8vw 8vw   ;
     place-items: center;
     justify-content: center;
     
