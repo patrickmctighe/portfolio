@@ -1,7 +1,10 @@
 export default function SoftSkills() {
   return (
     <div className="softSkillsMain">
+     
         <h1 className="softSkillsTitle">Soft Skills</h1>
+      
+      
         <ul className="softSkillsCont">
           <li>Problem-Solving</li>
           <li>Staff Supervision</li>

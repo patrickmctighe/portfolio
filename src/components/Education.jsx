@@ -6,7 +6,7 @@ export default function Education() {
      
         <div className="educationCont" id="cont1">
           {" "}
-          <h2 className="educationIndvTitle">AB-Tech| Asheville, NC</h2>
+          <h2 className="educationIndvTitle">AB-Tech | Asheville, NC</h2>
           <p className="educationText">Associate of Arts in Culinary Arts</p>
           <p className="educationText">05/2016</p>
           <p className="educationText">2016 - Honor Roll - 3.8 GPA</p>

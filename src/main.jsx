@@ -16,6 +16,7 @@ import './styles/sitebody.css'
 import './styles/skills.css'
 import './styles/softskills.css'
 import './styles/nav.css'
+import './styles/letter.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

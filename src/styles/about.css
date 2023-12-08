@@ -5,18 +5,34 @@
     display:flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     text-align: center;
     
   }
   .aboutText{
-    width: 50%;
+    width: 70%;
     height: 50%;
     display:flex;
     align-items: center;
     justify-content: center;
-    
+    font-size: 2rem;
    
    
+  }
+
+  .letterRec{
+    text-decoration: none;
+    color:white;
+    font-size: 1.7rem;
+    background-color: brown;
+    padding:.6em
+  }
+
+  .letterRec:hover{
+    background-color: #920518;
+    color:white;
+    transition: 0.5s;
+    transform: scale(1.1);
   }
 
  /*xs*/

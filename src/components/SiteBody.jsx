@@ -13,6 +13,7 @@ import Members from "../project-pages/Members";
 import PlanIt from "../project-pages/PlanIt";
 import Weather from "../project-pages/Weather";
 import Etchy from '../project-pages/Etchy';
+import Letter from './Letter';
 
 export default function SiteBody() {
   return (
@@ -26,8 +27,8 @@ export default function SiteBody() {
         </div>
         <div className="mainContainer">
           <Routes>
-            <Route path="/about" element={<About />} />
-           
+            <Route path="/about/*" element={<About />} />
+           <Route path="/about/letter" element={<Letter />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="/projects/aimee" element={<Aimee />} />
