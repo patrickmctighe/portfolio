@@ -1,4 +1,4 @@
-import { NavLink, Routes, Route } from 'react-router-dom';
+import { NavLink, Routes, Route, useLocation} from 'react-router-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import About from "./About";
 import Projects from "./Projects";
@@ -14,16 +14,24 @@ import PlanIt from "../project-pages/PlanIt";
 import Weather from "../project-pages/Weather";
 import Etchy from '../project-pages/Etchy';
 import Letter from './Letter';
+import{ useTheme } from '../theme/ThemeContext';
 
 export default function SiteBody() {
+  const location = useLocation();
+  const { setTheme } = useTheme();
+
+  const handleNavLinkClick = (theme) => {
+    setTheme(theme);
+  };
+
   return (
-    <Router>
+   
       <div className="siteBody">
         <div className="nav">
-          <NavLink className="hexagon" id="aboutLink" to="/about" >About Me</NavLink>
-          <NavLink className="hexagon" id="projectsLink" to="/projects" >Projects</NavLink>
-          <NavLink className="hexagon" id="skillsLink" to="/skills" >Skills</NavLink>
-          <NavLink className="hexagon" id="resumeLink" to="/resume"  >Resume</NavLink>
+          <NavLink className="hexagon" id="aboutLink" to="/about"  onClick={() => handleNavLinkClick('about')} >About Me</NavLink>
+          <NavLink className="hexagon" id="projectsLink" to="/projects"   onClick={() => handleNavLinkClick('projects')} >Projects</NavLink>
+          <NavLink className="hexagon" id="skillsLink" to="/skills" onClick={() => handleNavLinkClick('skills')}>Skills</NavLink>
+          <NavLink className="hexagon" id="resumeLink" to="/resume"  onClick={() => handleNavLinkClick('resume')} >Resume</NavLink>
         </div>
         <div className="mainContainer">
           <Routes>
@@ -44,6 +52,6 @@ export default function SiteBody() {
           </Routes>
         </div>
       </div>
-    </Router>
+    
   );
 }

@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 100vw;
+    width: 99vw;
     flex: 1;
     height: 14vh;
 
@@ -22,9 +22,81 @@
     border-radius: 8em;
   }
 
- .active {
-    background-color: red;
+  .about {
+    background-color: #ffcc80;
+    height: 5vh;
+    width:2.5vw;
+    border-radius: 0em;
   }
+  
+  .projects {
+    background-color: black; 
+     width: 0;
+    height: 0;
+    border-left: 2em solid transparent;
+    border-right: 2em solid transparent;
+    border-bottom: 4em solid red;
+    border-radius: 0em;
+  }
+  
+  .skills {
+    box-shadow: 
+      0 0 0 0.5em red,
+      0 0.5em 0 0.5em red,
+      -1.25em 0.75em 0 0.25em red,
+      1.25em 0.75em 0 0.25em red,
+      -1.5em -1.5em 0 0 red,
+      1.5em -1.5em 0 0 red,
+      -1em -1em 0 0 red,
+      1em -1em 0 0 red,
+      -1.5em -0.5em 0 0 red,
+      -1em -0.5em 0 0 red,
+      1em -0.5em 0 0 red,
+      1.5em -0.5em 0 0 red,
+      -2em 0 0 0 red,
+      -1.5em 0 0 0 red,
+      1.5em 0 0 0 red,
+      2em 0 0 0 red,
+      -2.5em 0.5em 0 0 red,
+      -2em 0.5em 0 0 red,
+      2em 0.5em 0 0 red,
+      2.5em 0.5em 0 0 red,
+      -2.5em 1em 0 0 red,
+      2.5em 1em 0 0 red,
+      -2.5em 1.5em 0 0 red,
+      -1.5em 1.5em 0 0 red,
+      1.5em 1.5em 0 0 red,
+      2.5em 1.5em 0 0 red,
+      -1em 2em 0 0 red,
+      -0.5em 2em 0 0 red,
+      0.5em 2em 0 0 red,
+      1em 2em 0 0 red;
+    background: red;
+    width: 0.5em;
+    height: 0.5em;
+    overflow: hidden;
+    margin: 50px 0 70px 65px;
+    border-radius: 0em;
+  }
+  .resume {
+    background-color: #ff9999;
+    background: red;
+    height: 100px;
+    position: relative;
+    width: 20px;
+  }
+.resume:after{
+  background: red;
+  content: "";
+  height: 20px;
+  left: -40px;
+  position: absolute;
+  top: 40px;
+  width: 100px;
+}
+
+
+
  /*xs*/
  @media (max-width:639px){
 }
