@@ -5,6 +5,7 @@
     justify-content: center;
     flex-direction: column;
     color:black;
+    padding-top:3em
   }
   .educationMainContainer{
   display: grid;
@@ -33,6 +34,7 @@
     justify-content: center;
     flex-direction: column;
     color:black;
+    padding-top: 0em;
   }
   .educationMainContainer{
   display:flex;

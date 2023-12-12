@@ -45,6 +45,6 @@ body{
 /*2xl*/
 @media (min-width:1536px){
   body{
-    background-color:purple;
+    background-color:black;
   };
 }

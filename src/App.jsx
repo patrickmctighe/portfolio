@@ -1,21 +1,19 @@
-import { useState } from 'react'
-import SiteBody from './components/SiteBody'
-import Header from './components/Header'
-import Footer from './components/Footer'
-
+import React from 'react';
+import SiteBody from './components/SiteBody';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import { ThemeProvider } from './ThemeContext';
 
 function App() {
-  
-
   return (
-    <div>
-    
-<Header />
-<SiteBody />
-<Footer/>
-    </div>
-    
-  )
+    <ThemeProvider>
+      <div>
+        <Header />
+        <SiteBody />
+        <Footer />
+      </div>
+    </ThemeProvider>
+  );
 }
 
-export default App
+export default App;

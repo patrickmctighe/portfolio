@@ -3,17 +3,28 @@
   .footerMain{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     width: 100vw;
-    flex: 1
+    flex: 1;
+    height: 14vh;
+
   }
-  .footerMain{
-    height: 10vh;
-    width:100vw;
-  }
+
+  .linkedIn, .gitHub, .eMail{
+    height: 5vh;
+    width: auto;
   
+  }
+  .circle{
+    background-color: white;
+    height: 5vh;
+    width:2.5vw;
+    border-radius: 8em;
+  }
 
-
+ .active {
+    background-color: red;
+  }
  /*xs*/
  @media (max-width:639px){
 }
