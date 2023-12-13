@@ -1,7 +1,7 @@
 
 
 .letterMain{
-    background-color: #db2d43;
+    background-color:#D46892;
     width:100%;
     height:100%;
     display:flex;
@@ -15,7 +15,7 @@
     width: 70%;
     font-size: 2rem;
     overflow-y: scroll;
-    scrollbar-color: red ;
+    scrollbar-color: #D46892 ;
     scrollbar-width: thin;
     height:90%
 }
@@ -27,7 +27,7 @@
 
 
     .letterMain{
-        background-color: #db2d43;
+        background-color: #D46892;
         width:100%;
         height:100%;
         display:flex;
@@ -41,7 +41,7 @@
         width: 82%;
         font-size: 1rem;
         overflow-y: scroll;
-        scrollbar-color: red ;
+        scrollbar-color: #D46892;
         scrollbar-width: thin;
         height:90%
     }

@@ -8,7 +8,8 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    gap:1.5em
+    gap:1.5em;
+    margin:0;
   }
   
   .resumeNav{
@@ -41,7 +42,7 @@
   }
   .resumeButton:hover{
     background-color: #1C3B62;
-    color: #146481;
+    color: white;
     transition: 0.5s ;
    
   }
@@ -73,7 +74,7 @@
   
   .resumeButton{
     background-color: #146481;
-    color:black;
+    color:white;
     border: 1px solid #1C3B62;
     border-top:none;
     
@@ -85,13 +86,13 @@
     font-size: .64rem;
   }
   .resumeButtonActive {
-    background-color: black;
-    color: #146481;
+    background-color: #1C3B62;
+    color: white;
     transition: 0.5s;
    
   }
   .resumeButton:hover{
-    background-color: black;
+    background-color: #1C3B62;
     color: #146481;
     transition: 0.5s ;
    

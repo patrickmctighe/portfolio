@@ -74,24 +74,24 @@
      text-align: center;
   }
   #aboutLink{
-    background-color:#db2d43;
-   color: black;
+    background-color:#D46892;
+   color: white;
    text-decoration: none;
    
   }
   #projectsLink{
-    background-color: #87e5da;
-   color:black;
+    background-color: #00A1AE;
+   color:white;
    text-decoration: none;
   }
   #skillsLink{
-    background-color:#c7f2e3;
-   color:black;
+    background-color:#83688E;
+   color:white;
    text-decoration: none;
   }
   #resumeLink{
-    background-color: #f7aa00;
-   color:black;
+    background-color: #146481;;
+   color:white;
    text-decoration: none;
   }
   
@@ -105,7 +105,7 @@
     justify-content: center;
     padding: 1em;
     padding-right: 2em;
-    border: .3em solid white;
+    border: .3em solid rgb(207, 184, 184);
     border-radius: .1em;
     flex:1;
     transition: 0.1s;

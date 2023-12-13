@@ -15,22 +15,22 @@ export default function Footer() {
       <div className={`circle ${activeTheme}`}></div>
       <div className={`circle ${activeTheme}`}></div>
       <div className="footerGit">
-        <NavLink to="https://github.com/patrickmctighe/restaurant" target="_blank">
-          <img className="gitHub" src="./footer-images/githubfoot.png" alt="GitHub" />
+        <NavLink to="https://github.com/patrickmctighe" target="_blank">
+          <img className="gitHub" src="./footer-images/githubtran.png" alt="GitHub" />
         </NavLink>
       </div>
       <div className={`circle ${activeTheme}`}></div>
 
       <div className="footerLinkedIn">
-        <NavLink to="https://github.com/patrickmctighe/restaurant" target="_blank">
-          <img className="linkedIn" src="./footer-images/linked3.png" alt="LinkedIn" />
+        <NavLink to="https://www.linkedin.com/in/patrick-mctighe-290a21255/" target="_blank">
+          <img className="linkedIn" src="./footer-images/linked5.png" alt="LinkedIn" />
         </NavLink>
       </div>
       <div className={`circle ${activeTheme}`}></div>
 
       <div className="footerEmail">
-        <NavLink to="https://github.com/patrickmctighe/restaurant" target="_blank">
-          <img className="eMail" src="./footer-images/email2.png" alt="Email" />
+        <NavLink to="mailto:patrickquinnmctighe@gmail.com" target="_blank">
+          <img className="eMail" src="./footer-images/email3.png" alt="Email" />
         </NavLink>
       </div>
       <div className={`circle ${activeTheme}`}></div>
