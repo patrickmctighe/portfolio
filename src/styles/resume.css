@@ -1,9 +1,9 @@
 /*Resume*/
 .resumeMain{
-    background-color: #f7aa00;
+    background-color: #146481;
     width:100%;
     height:100%;
-    color:black;
+    color:white;
     display:flex;
     align-items: center;
     justify-content: flex-start;
@@ -21,9 +21,9 @@
   }
   
   .resumeButton{
-    background-color: #f7aa00;
-    color:black;
-    border: 1px solid black;
+    background-color: #146481;
+    color:white;
+    border: 1px solid #1C3B62;
     border-left: none;
     border-top:none;
     padding: .5em;
@@ -34,14 +34,14 @@
     font-size: 1.5rem;
   }
   .resumeButtonActive {
-    background-color: black;
-    color: #f7aa00;
+    background-color:#1C3B62;
+    color: #146481;
     transition: 0.5s;
    
   }
   .resumeButton:hover{
-    background-color: black;
-    color: #f7aa00;
+    background-color: #1C3B62;
+    color: #146481;
     transition: 0.5s ;
    
   }
@@ -51,10 +51,10 @@
 @media (max-width:639px){
 
   .resumeMain{
-    background-color: #f7aa00;
+    background-color: #146481;
     width:100%;
     height:100%;
-    color:black;
+    color: white;
     display:flex;
     align-items: center;
     justify-content: flex-start;
@@ -72,9 +72,9 @@
   }
   
   .resumeButton{
-    background-color: #f7aa00;
+    background-color: #146481;
     color:black;
-    border: 1px solid black;
+    border: 1px solid #1C3B62;
     border-top:none;
     
     padding: .5em;
@@ -86,13 +86,13 @@
   }
   .resumeButtonActive {
     background-color: black;
-    color: #f7aa00;
+    color: #146481;
     transition: 0.5s;
    
   }
   .resumeButton:hover{
     background-color: black;
-    color: #f7aa00;
+    color: #146481;
     transition: 0.5s ;
    
   }

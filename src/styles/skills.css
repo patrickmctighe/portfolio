@@ -1,12 +1,12 @@
 /*skils*/
 .skillsMain{
-    background-color: #c7f2e3;
+    background-color: #83688E;
     width:100%;
     height:100%;
     display:flex;
     align-items: center;
     justify-content: center;
-    color:black;
+    color:white;
     gap:4.5em
   }
   .skillsExplination{
@@ -21,7 +21,7 @@
   gap:2em
   }
   .skillsImgsMain{
-    background-color: #c7f2e3;
+    background-color: #83688E;
     
     display: grid;
     grid-template-columns:12vh 12vh 12vh 12vh 12vh ;
@@ -32,7 +32,7 @@
   }
   
   .skillComp{
-    color:black;
+    color:white;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -87,7 +87,7 @@
   }
   
   .skillComp{
-    color:black;
+    color:white;
     display:flex;
     align-items: center;
     justify-content: center;

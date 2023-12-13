@@ -1,6 +1,6 @@
 /*Global*/
 body{
-  background-color: black;
+  background-color: #1C3B62;
   color: white;
   font-family: 'Rajdhani', sans-serif;
  
@@ -11,7 +11,7 @@ body{
 /*xs*/
 @media (max-width:639px){
   body{
-    background-color:black;
+    background-color:#1C3B62;
   };
 }
 
@@ -47,6 +47,6 @@ body{
 /*2xl*/
 @media (min-width:1536px){
   body{
-    background-color:black;
+    background-color:#1C3B62;
   };
 }

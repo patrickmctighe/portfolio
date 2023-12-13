@@ -1,10 +1,11 @@
 .projectsMain {
-    background-color: #87e5da;
+    background-color: #00A1AE;
     width: 100%;
     height: 100%;
    display: flex;
     align-items: center;
     justify-content: center;
+    color:white;
   }
   .projectsMainContainer{
     display: grid;
@@ -47,7 +48,7 @@
   }
   
   .projTitle{
-    color:black;
+    color:white;
     
   }
 
@@ -55,13 +56,13 @@
  /*xs*/
  @media (max-width:639px){
   .projectsMain {
-    background-color: #87e5da;
+    background-color: #00A1AE;
     width: 100%;
     height: 100%;
     z-index:1;
   }
   .projectsMainContainer {
-    background-color: #87e5da;
+    background-color: #00A1AE;
     width: 100%;
     height: 100%;
     display: flex;

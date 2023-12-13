@@ -24,23 +24,25 @@
   }
   
   .about {
-    background-color:#db2d43;
+    background-color:#D46892;
     transition: background-color 0.5s; /* Add this */
   }
   
   .projects {
-    background-color: #87e5da;
+    background-color: #00A1AE;
     transition: background-color 0.5s; /* Add this */
   }
   
   .skills {
-    background-color:#c7f2e3;
+    background-color:#83688E;
     transition: background-color 0.5s; /* Add this */
   }
   
   .resume {
-    background-color: #f7aa00;
-    tr
+    background-color: #146481;
+    transition: background-color 0.5s; 
+  }
+
 
 
  /*xs*/
