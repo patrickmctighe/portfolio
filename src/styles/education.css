@@ -66,21 +66,265 @@
 
 /*sm*/
 @media (min-width:640px) and (max-width:767px){
+  .educationMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+    padding-top:1em
+  }
+  .educationMainContainer{
+  display: grid;
+  grid-template-columns: 45vh 45vh ;
+  grid-template-rows: 5vw 5vw ;
+  padding:0em;
+  gap:5em;
+  
+  
+  }
+  
+  .educationCont{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  line-height: 0em;
+  font-size: .7rem;
+  
+}
+.educationIndvTitle{
+    font-size: 1rem;
+}
+.educationText{
+    font-size: .75rem;
+}
 }
 
 /*md*/
-@media (min-width:768px) and (max-width:1023px){
+
+@media (min-width:768px) and (max-width:1023px) {
+  .educationMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+    padding-top:1em
+  }
+  .educationMainContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr ;
+  padding:0em;
+  gap:2em;
+  column-gap: 4em;
+  
+  }
+  
+  .educationCont{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  line-height: 0em;
+  font-size: .7rem;
+  
+}
+.educationIndvTitle{
+    font-size: 1rem;
+}
+.educationText{
+    font-size: .75rem;
 }
 
+}
+@media (min-width:768px) and (max-width:1023px)and (min-height:768px) and (max-height:1500px) {
+  .educationMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+    padding-top:1em
+  }
+  .educationMainContainer{
+    display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:2em;
+  gap:2.5em;
+  
+  
+  }
+  
+  .educationCont{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  line-height: 0em;
+  font-size: .7rem;
+  
+}
+.educationIndvTitle{
+    font-size: 1.5rem;
+}
+.educationText{
+    font-size: 1rem;
+}
+
+}
 /*lg*/
+
 @media (min-width:1024px) and (max-width:1279px){
+  .educationMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+    padding-top:4em
+  }
+  .educationMainContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr ;
+  padding:0em;
+  gap:3em;
+  
+  
+  }
+  
+  .educationCont{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  line-height: 0em;
+  font-size: .7rem;
+  
+}
+.educationIndvTitle{
+    font-size: 1.25rem;
+}
+.educationText{
+    font-size: .8rem;
+}
+
+}
+@media (min-width:1024px) and (max-width:1279px)and (min-height:1024px) and (max-height:1500px){
+  .educationMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+    padding-top:4em
+  }
+  .educationMainContainer{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:0em;
+  gap:3em;
+  
+  
+  }
+  
+  .educationCont{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  line-height: 0em;
+  font-size: .7rem;
+  
+}
+.educationIndvTitle{
+    font-size: 1.5rem;
+}
+.educationText{
+    font-size: 1rem;
+}
+
 }
 
 /*xl*/
 @media (min-width:1280px) and (max-width:1535px){
+  .educationMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+    padding-top:5em
+  }
+  .educationMainContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr ;
+  padding:0em;
+  gap:4.5em;
+  
+  
+  }
+  
+  .educationCont{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  line-height: 0em;
+  font-size: .7rem;
+  
+}
+.educationIndvTitle{
+    font-size: 1.75rem;
+}
+.educationText{
+    font-size: 1.5rem;
+}
+
 }
 
 /*2xl*/
 @media (min-width:1536px){
+  .educationMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+    padding-top:5em
+  }
+  .educationMainContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr ;
+  padding:0em;
+  gap:4.5em;
+  
+  
+  }
+  
+  .educationCont{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  line-height: 0em;
+  font-size: .7rem;
+  
+}
+.educationIndvTitle{
+    font-size: 2rem;
+}
+.educationText{
+    font-size: 1.5rem;
+}
+
 }
  

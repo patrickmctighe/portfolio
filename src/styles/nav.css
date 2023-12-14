@@ -133,21 +133,344 @@
 
 /*sm*/
 @media (min-width:640px) and (max-width:767px){
+  .nav{
+    display:flex;
+    flex-direction: column;
+    gap:.56em;
+     width:20%;
+     flex:1;
+     text-align: center;
+  }
+  #aboutLink{
+    background-color:#D46892;
+   color: white;
+   text-decoration: none;
+   
+  }
+  #projectsLink{
+    background-color: #00A1AE;
+   color:white;
+   text-decoration: none;
+  }
+  #skillsLink{
+    background-color:#83688E;
+   color:white;
+   text-decoration: none;
+  }
+  #resumeLink{
+    background-color: #146481;;
+   color:white;
+   text-decoration: none;
+  }
+  
+  .hexagon {
+    width: 15vw; 
+    height: 2vh; 
+    /* transform: skew(50deg);
+    rotate: 50deg; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5em;
+    padding-right: 1.1em;
+    border: .3em solid rgb(207, 184, 184);
+    border-radius: .1em;
+    flex:1;
+    transition: 0.1s;
+  }
+  .hexagon:hover{
+  
+    transition: 5s;
+    rotate: 0deg;
+    transform: scale(.90);
+  }
+  
+  .hexagon.active {
+   border:none;
+    transition: .5s;
+    rotate: 0deg;
+    transform: scale(1) skew(0deg);
+    justify-content: center;
+    text-align: center;
+    width:16vw;
+    padding-right:2.5em;
+   
+  }
+ 
+  
+
 }
 
 /*md*/
 @media (min-width:768px) and (max-width:1023px){
+  .nav{
+    display:flex;
+    flex-direction: column;
+    gap:1.1em;
+     width:20%;
+     flex:1;
+     text-align: center;
+  }
+  #aboutLink{
+    background-color:#D46892;
+   color: white;
+   text-decoration: none;
+   
+  }
+  #projectsLink{
+    background-color: #00A1AE;
+   color:white;
+   text-decoration: none;
+  }
+  #skillsLink{
+    background-color:#83688E;
+   color:white;
+   text-decoration: none;
+  }
+  #resumeLink{
+    background-color: #146481;;
+   color:white;
+   text-decoration: none;
+  }
+  
+  .hexagon {
+    width: 13vw; 
+    height: 2vh; 
+    /* transform: skew(50deg);
+    rotate: 50deg; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: .4em;
+    padding-right: 2em;
+    border: .3em solid rgb(207, 184, 184);
+    border-radius: .1em;
+    flex:1;
+    transition: 0.1s;
+  }
+  .hexagon:hover{
+  
+    transition: 5s;
+    rotate: 0deg;
+    transform: scale(.90);
+  }
+  
+  .hexagon.active {
+   border:none;
+    transition: .5s;
+    rotate: 0deg;
+    transform: scale(1) skew(0deg);
+    justify-content: center;
+    text-align: center;
+    width:16vw;
+    padding-right:3.2em
+   
+  }
+ 
+  
+
 }
 
 /*lg*/
 @media (min-width:1024px) and (max-width:1279px){
+  .nav{
+    display:flex;
+    flex-direction: column;
+    gap:2em;
+     width:20%;
+     flex:1;
+     
+  }
+  #aboutLink{
+    background-color:#D46892;
+   color: white;
+   text-decoration: none;
+   
+  }
+  #projectsLink{
+    background-color: #00A1AE;
+   color:white;
+   text-decoration: none;
+  }
+  #skillsLink{
+    background-color:#83688E;
+   color:white;
+   text-decoration: none;
+  }
+  #resumeLink{
+    background-color:#146481;
+   color:white;
+   text-decoration: none;
+  }
+  
+  .hexagon {
+    width: 15vw; 
+    height: 2vh; 
+    /* transform: skew(50deg);
+    rotate: 50deg; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    padding-right: 2em;
+    border: .25em solid rgb(207, 184, 184);
+    border-radius: .1em;
+    flex:1;
+    transition: 0.5s;
+  }
+  .hexagon:hover{
+  
+    transition: 0.5s;
+    rotate: 0deg;
+    transform: scale(.90);
+  }
+  
+  .hexagon.active {
+   border:none;
+    transition: 0.5s;
+    rotate: 0deg;
+    transform: scale(1.5) skew(0deg);
+    justify-content: flex-end;
+    width:16vw;
+    height: vh;
+  }
+ 
+  
 }
 
 /*xl*/
 @media (min-width:1280px) and (max-width:1535px){
+  .nav{
+    display:flex;
+    flex-direction: column;
+    gap:4em;
+     width:20%;
+     flex:1;
+     
+  }
+  #aboutLink{
+    background-color:#D46892;
+   color: white;
+   text-decoration: none;
+   
+  }
+  #projectsLink{
+    background-color: #00A1AE;
+   color:white;
+   text-decoration: none;
+  }
+  #skillsLink{
+    background-color:#83688E;
+   color:white;
+   text-decoration: none;
+  }
+  #resumeLink{
+    background-color:#146481;
+   color:white;
+   text-decoration: none;
+  }
+  
+  .hexagon {
+    width: 15vw; 
+    height: 2vh; 
+    /* transform: skew(50deg);
+    rotate: 50deg; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    padding-right: 2em;
+    border: .25em solid rgb(207, 184, 184);
+    border-radius: .1em;
+    flex:1;
+    transition: 0.5s;
+  }
+  .hexagon:hover{
+  
+    transition: 0.5s;
+    rotate: 0deg;
+    transform: scale(.90);
+  }
+  
+  .hexagon.active {
+   border:none;
+    transition: 0.5s;
+    rotate: 0deg;
+    transform: scale(1.5) skew(0deg);
+    justify-content: flex-end;
+    width:16vw;
+    height: vh;
+  }
+ 
+  
+
 }
 
 /*2xl*/
 @media (min-width:1536px){
+  .nav{
+    display:flex;
+    flex-direction: column;
+    gap:4em;
+     width:20%;
+     flex:1;
+     
+  }
+  #aboutLink{
+    background-color:#D46892;
+   color: white;
+   text-decoration: none;
+   
+  }
+  #projectsLink{
+    background-color: #00A1AE;
+   color:white;
+   text-decoration: none;
+  }
+  #skillsLink{
+    background-color:#83688E;
+   color:white;
+   text-decoration: none;
+  }
+  #resumeLink{
+    background-color:#146481;
+   color:white;
+   text-decoration: none;
+  }
+  
+  .hexagon {
+    width: 15vw; 
+    height: 2vh; 
+    /* transform: skew(50deg);
+    rotate: 50deg; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    padding-right: 2em;
+    border: .25em solid rgb(207, 184, 184);
+    border-radius: .1em;
+    flex:1;
+    transition: 0.5s;
+  }
+  .hexagon:hover{
+  
+    transition: 0.5s;
+    rotate: 0deg;
+    transform: scale(.90);
+  }
+  
+  .hexagon.active {
+   border:none;
+    transition: 0.5s;
+    rotate: 0deg;
+    transform: scale(1.5) skew(0deg);
+    justify-content: flex-end;
+    width:16vw;
+    height: vh;
+  }
+ 
+  
+
 }
  

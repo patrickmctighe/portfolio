@@ -100,24 +100,260 @@
 
 /*sm*/
 @media (min-width:640px) and (max-width:767px){
+  .aboutMain{
+    background-color: #D46892;
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+  .aboutText{
+    width: 60%;
+    height: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .9rem;
+   
+   
+  }
 
+  .letterRec{
+    text-decoration: none;
+    color:white;
+    font-size: 1rem;
+    background-color: #a8647e;
+    padding:.6em
+  }
+
+  .letterRec:hover{
+    background-color: #e4588e;
+    color:white;
+    transition: 0.5s;
+    transform: scale(1.1);
+  }
+
+  .picAndPara{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap:em
+  }
+  .myPicture{
+    height:35vh;
+    width: auto;
+  }
 }
 
 /*md*/
 @media (min-width:768px) and (max-width:1023px){
- 
+  .aboutMain{
+    background-color: #D46892;
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+  .aboutText{
+    width: 70%;
+    height: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .9rem;
+   
+   
+  }
+
+  .letterRec{
+    text-decoration: none;
+    color:white;
+    font-size: 1rem;
+    background-color: #a8647e;
+    padding:.6em
+  }
+
+  .letterRec:hover{
+    background-color: #e4588e;
+    color:white;
+    transition: 0.5s;
+    transform: scale(1.1);
+  }
+
+  .picAndPara{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:0em
+  }
+  .myPicture{
+    height:20vh;
+    width: auto;
+  }
 }
 
 /*lg*/
 @media (min-width:1024px) and (max-width:1279px){
+  .aboutMain{
+    background-color: #D46892;
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+  .aboutText{
+    width: 70%;
+    height: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .9rem;
+   
+   
+  }
 
+  .letterRec{
+    text-decoration: none;
+    color:white;
+    font-size: 1rem;
+    background-color: #a8647e;
+    padding:.6em
+  }
+
+  .letterRec:hover{
+    background-color: #e4588e;
+    color:white;
+    transition: 0.5s;
+    transform: scale(1.1);
+  }
+
+  .picAndPara{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:em
+  }
+  .myPicture{
+    height:15vh;
+    width: auto;
+  }
 }
 
 /*xl*/
 @media (min-width:1280px) and (max-width:1535px){
- 
+  .aboutMain{
+    background-color: #D46892;
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+  .aboutText{
+    width: 70%;
+    height: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+   
+   
+  }
+
+  .letterRec{
+    text-decoration: none;
+    color:white;
+    font-size: 1rem;
+    background-color: #a8647e;
+    padding:.6em
+  }
+
+  .letterRec:hover{
+    background-color: #e4588e;
+    color:white;
+    transition: 0.5s;
+    transform: scale(1.1);
+  }
+
+  .picAndPara{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:em
+  }
+  .myPicture{
+    height:27vh;
+    width: auto;
+  }
 }
 
 /*2xl*/
 @media (min-width:1536px){
+  .aboutMain{
+    background-color: #D46892;
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+  .aboutText{
+    width: 50%;
+    height: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .9rem;
+   
+   
+  }
+
+  .letterRec{
+    text-decoration: none;
+    color:white;
+    font-size: 1rem;
+    background-color: #a8647e;
+    padding:.6em
+  }
+
+  .letterRec:hover{
+    background-color: #e4588e;
+    color:white;
+    transition: 0.5s;
+    transform: scale(1.1);
+  }
+
+  .picAndPara{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:em
+  }
+  .myPicture{
+    height:15vh;
+    width: auto;
+  }
 }
