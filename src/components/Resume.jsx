@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import Education from "./Education";
 import Experience from "./Experience";
 import Hobbies from "./Hobbies";

@@ -1,12 +1,5 @@
 import { Link } from "react-router-dom";
-import Aimee from "../project-pages/Aimee";
-import Armored from "../project-pages/Armored";
-import Chatr from "../project-pages/Chatr";
-import Elden from "../project-pages/Elden";
-import Climate from "../project-pages/Climate";
-import Members from "../project-pages/Members";
-import PlanIt from "../project-pages/PlanIt";
-import Weather from "../project-pages/Weather";
+
 
 export default function Projects() {
   return (

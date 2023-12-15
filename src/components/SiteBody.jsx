@@ -1,5 +1,5 @@
 import { NavLink, Routes, Route, useLocation} from 'react-router-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
+
 import About from "./About";
 import Projects from "./Projects";
 import Resume from "./Resume";
