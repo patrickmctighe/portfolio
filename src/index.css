@@ -18,32 +18,33 @@ body{
 /*sm*/
 @media (min-width:640px) and (max-width:767px){
   body{
-    background-color:yellow;
+    background-color:#1C3B62;
   };
 }
 
 /*md*/
 @media (min-width:768px) and (max-width:1023px){
   body{
-    background-color:blue;
+    background-color:#1C3B62;
   };
 }
 @media (min-width:768px) and (max-width:1023px)and (min-height:768px) and (max-height:1500px){
   body{
-    background-color:rgb(241, 239, 119);
+    background-color:#1C3B62;
   };
 }
 
 /*lg*/
 @media (min-width:1024px) and (max-width:1279px){
   body{
-    background-color:green;
-  
+    background-color:#1C3B62;
+    
+
   };
 }
 @media (min-width:1024px) and (max-width:1279px)and (min-height:1024px) and (max-height:1500px){
   body{
-    background-color:rgb(241, 119, 215)
+    background-color:#1C3B62;
   };
 }
 
@@ -51,7 +52,7 @@ body{
 /*xl*/
 @media (min-width:1280px) and (max-width:1535px){
   body{
-    background-color:rgb(117, 81, 15);
+    background-color:#1C3B62;
   };
 }
 

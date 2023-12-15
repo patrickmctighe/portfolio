@@ -52,19 +52,19 @@ export default function Members() {
             </div>
             <div className="projectTech">
             <div className="skillComp">
-        <img className="skillImgs" src="/skill-logos/mongoDB.png" alt="" />
+        <img className="projSkillImgs" src="/skill-logos/mongoDB.png" alt="" />
         <div className="skillTitle">MongoDB</div>
       </div>
       <div className="skillComp">
-        <img className="skillImgs" src="/skill-logos/ejs.png" alt="" />
+        <img className="projSkillImgs" src="/skill-logos/ejs.png" alt="" />
         <div className="skillTitle">EJS</div>
       </div>
       <div className="skillComp">
-        <img className="skillImgs" src="/skill-logos/ex.png" alt="" />
+        <img className="projSkillImgs" src="/skill-logos/ex.png" alt="" />
         <div className="skillTitle">express</div>
       </div>
       <div className="skillComp">
-        <img className="skillImgs" src="/skill-logos/css.png" alt="" />
+        <img className="projSkillImgs" src="/skill-logos/css.png" alt="" />
         <div className="skillTitle">CSS</div>
       </div>
             </div>

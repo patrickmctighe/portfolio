@@ -82,7 +82,7 @@ export default function Projects() {
           className="projA"
           to="etchy"
         >
-          <img className="projImg" src="/project-images/etchy.png" alt="" />
+          <img className="projImg" src="/project-images/etchy1.png" alt="" />
           <div className="projTitle">Etch-A-Sketch</div>
         </Link>
       </div>

@@ -16,6 +16,7 @@ export default function Resume() {
 
   const handleLanguagesClick = () => {
     setSelectedSection("languages");
+    sound.volume = 0.01;
     sound.play();
   };
 

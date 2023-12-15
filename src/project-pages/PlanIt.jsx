@@ -54,19 +54,19 @@ export default function PlanIt() {
             <div className="projectTech">
               {" "}
               <div className="skillComp">
-        <img className="skillImgs" src="/skill-logos/js.png" alt="" />
+        <img className="projSkillImgs" src="/skill-logos/js.png" alt="" />
         <div className="skillTitle">JavaScript</div>
       </div>
               <div className="skillComp">
-        <img className="skillImgs" src="/skill-logos/html.png" alt="" />
+        <img className="projSkillImgs" src="/skill-logos/html.png" alt="" />
         <div className="skillTitle">HTML</div>
       </div>
               <div className="skillComp">
-        <img className="skillImgs" src="/skill-logos/css.png" alt="" />
+        <img className="projSkillImgs" src="/skill-logos/css.png" alt="" />
         <div className="skillTitle">CSS</div>
       </div>
               <div className="skillComp">
-        <img className="skillImgs" src="/skill-logos/webpack.png" alt="" />
+        <img className="projSkillImgs" src="/skill-logos/webpack.png" alt="" />
         <div className="skillTitle">Webpack</div>
       </div>
             </div>

@@ -15,7 +15,7 @@
     display:flex;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 3rem;
    
    
   }
@@ -320,12 +320,12 @@
     
   }
   .aboutText{
-    width: 50%;
+    width: 60%;
     height: 50%;
     display:flex;
     align-items: center;
     justify-content: center;
-    font-size: .9rem;
+    font-size: 1.5rem;
    
    
   }
@@ -353,7 +353,7 @@
     gap:em
   }
   .myPicture{
-    height:15vh;
+    height:25vh;
     width: auto;
   }
 }

@@ -13,7 +13,7 @@
 
 .letterCont{
     width: 70%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     overflow-y: scroll;
     scrollbar-color: #D46892 ;
     scrollbar-width: thin;
@@ -148,25 +148,6 @@
     
     /*2xl*/
     @media (min-width:1536px){
-        .letterMain{
-            background-color: #D46892;
-            width:100%;
-            height:100%;
-            display:flex;
-            align-items: center;
-            justify-content: center;
-            
-            
-        }
-        
-        .letterCont{
-            width: 82%;
-            font-size: 1rem;
-            overflow-y: scroll;
-            scrollbar-color: #D46892;
-            scrollbar-width: thin;
-            height:90%
-        }
-        
+
     }
      

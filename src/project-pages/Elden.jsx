@@ -53,19 +53,19 @@ export default function Elden() {
             <div className="projectTech">
               {" "}
               <div className="skillComp">
-        <img className="skillImgs" src="/skill-logos/react3.png" alt="" />
+        <img className="projSkillImgs" src="/skill-logos/react3.png" alt="" />
         <div className="skillTitle">React</div>
       </div>
       <div className="skillComp">
-        <img className="skillImgs" src="/skill-logos/js.png" alt="" />
+        <img className="projSkillImgs" src="/skill-logos/js.png" alt="" />
         <div className="skillTitle">JavaScript</div>
       </div>
       <div className="skillComp">
-        <img className="skillImgs" src="/skill-logos/css.png" alt="" />
+        <img className="projSkillImgs" src="/skill-logos/css.png" alt="" />
         <div className="skillTitle">CSS</div>
       </div>
       <div className="skillComp">
-        <img className="skillImgs" src="/skill-logos/vite.png" alt="" />
+        <img className="projSkillImgs" src="/skill-logos/vite.png" alt="" />
         <div className="skillTitle">Vite</div>
       </div>
             </div>

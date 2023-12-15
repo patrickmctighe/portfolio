@@ -93,15 +93,15 @@
     
     .hobbyImgs{
       display: grid;
-      grid-template-columns: 1fr 1fr ;
-      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr ;
       width: 70vw;
-      row-gap: .25em;
+      row-gap: 1.5em;
     }
     
     .hobbyImg{
       width:auto;
-      height: 10vh;
+      height: 15vh;
       border-radius: 5px;
     }
     
@@ -133,10 +133,50 @@
     
     .hobbyImgs{
       display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr ;
+      width: 70vw;
+      row-gap: 1em;
+    }
+    
+    .hobbyImg{
+      width:auto;
+      height: 17vh;
+      border-radius: 5px;
+    }
+    
+    .hobbyCont{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    
+    .hobbyName{
+      font-size: .8rem;
+      font-weight: 900;
+      
+    }
+}
+@media (min-width:768px) and (max-width:1023px)and (min-height:768px) and (max-height:1500px){
+  .hobbiesMain{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: .5em;
+    height: 60vh;
+    width:70vw;
+    z-index:2;
+
+    }
+    
+    .hobbyImgs{
+      display: grid;
       grid-template-columns: 1fr 1fr ;
-      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr  1fr 1fr;
       width: 70vw;
       row-gap: .25em;
+  padding-top:1em
     }
     
     .hobbyImg{
@@ -153,7 +193,7 @@
     }
     
     .hobbyName{
-      font-size: .7rem;
+      font-size: 1rem;
       font-weight: 900;
       
     }
@@ -173,10 +213,48 @@
     
     .hobbyImgs{
       display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr ;
+      width: 70vw;
+      row-gap: 2.5em;
+    }
+    
+    .hobbyImg{
+      width:auto;
+      height: 17vh;
+      border-radius: 5px;
+    }
+    
+    .hobbyCont{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    
+    .hobbyName{
+      font-size: 1.25rem;
+      font-weight: 900;
+      
+    }
+}
+@media (min-width:1024px) and (max-width:1279px)and (min-height:1024px) and (max-height:1500px){
+  .hobbiesMain{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: .5em;
+    height: 60vh;
+    width:70vw;
+    z-index:2;
+    }
+    
+    .hobbyImgs{
+      display: grid;
       grid-template-columns: 1fr 1fr ;
       grid-template-rows: 1fr 1fr 1fr 1fr;
       width: 70vw;
-      row-gap: .25em;
+      row-gap: 1em;
     }
     
     .hobbyImg{
@@ -193,10 +271,11 @@
     }
     
     .hobbyName{
-      font-size: .7rem;
+      font-size: 1rem;
       font-weight: 900;
       
     }
+
 }
 
 /*xl*/
@@ -213,15 +292,15 @@
     
     .hobbyImgs{
       display: grid;
-      grid-template-columns: 1fr 1fr ;
-      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr ;
       width: 70vw;
-      row-gap: .25em;
+      row-gap: 3em;
     }
     
     .hobbyImg{
       width:auto;
-      height: 10vh;
+      height: 18vh;
       border-radius: 5px;
     }
     
@@ -233,7 +312,7 @@
     }
     
     .hobbyName{
-      font-size: .7rem;
+      font-size: 1.5rem;
       font-weight: 900;
       
     }
@@ -241,40 +320,5 @@
 
 /*2xl*/
 @media (min-width:1536px){
-  .hobbiesMain{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: .5em;
-    height: 60vh;
-    width:70vw;
-    z-index:2;
-    }
-    
-    .hobbyImgs{
-      display: grid;
-      grid-template-columns: 1fr 1fr ;
-      grid-template-rows: 1fr 1fr 1fr 1fr;
-      width: 70vw;
-      row-gap: .25em;
-    }
-    
-    .hobbyImg{
-      width:auto;
-      height: 10vh;
-      border-radius: 5px;
-    }
-    
-    .hobbyCont{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-    }
-    
-    .hobbyName{
-      font-size: .7rem;
-      font-weight: 900;
-      
-    }
+
 }

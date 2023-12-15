@@ -325,45 +325,6 @@ height:62vh;
 
 /*2xl*/
 @media (min-width:1536px){
-  .experienceMain{
 
-  }
-  .slide{
-  
-  }
-  .job {
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding:.25em;
-height:62vh;
-  border-radius: 5px;
-  gap:.1em;
-  }
-  .jobDetails{
-   font-size: .8rem;
-   
-  }
-  .jobList{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width:30%;
-    line-height: 1.5;
-    font-size: .75rem;
-    overflow: auto;
-    padding-bottom: .7em;
-  }
-  .slick-initialized {
-   
-  }
-  .sliderBox{
-    width:74vw;
-    
-  }
-  .swiper-button-prev, .swiper-button-next{
-    display:none;
-  }
 }
  

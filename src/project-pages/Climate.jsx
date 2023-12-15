@@ -54,19 +54,19 @@ export default function Climate() {
             <div className="projectTech">
               {" "}
               <div className="skillComp">
-        <img className="skillImgs" src="/skill-logos/react3.png" alt="" />
+        <img className="projSkillImgs" src="/skill-logos/react3.png" alt="" />
         <div className="skillTitle">React</div>
       </div>
       <div className="skillComp">
-        <img className="skillImgs" src="/skill-logos/vite.png" alt="" />
+        <img className="projSkillImgs" src="/skill-logos/vite.png" alt="" />
         <div className="skillTitle">Vite</div>
       </div>
       <div className="skillComp">
-        <img className="skillImgs" src="/skill-logos/netlify.png" alt="" />
+        <img className="projSkillImgs" src="/skill-logos/netlify.png" alt="" />
         <div className="skillTitle">Netlify</div>
       </div>
               <div className="skillComp">
-        <img className="skillImgs" src="/skill-logos/jest.png" alt="" />
+        <img className="projSkillImgs" src="/skill-logos/jest.png" alt="" />
         <div className="skillTitle">Jest</div>
       </div>
             </div>
