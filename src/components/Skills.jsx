@@ -4,9 +4,8 @@ export default function Skills() {
     <div className="skillsMain">
       <div className="skillsExplination">
         <img className="computerImg"src="skill-logos/computer-pixel-art.gif"/>
-        <p>
-          I am a self-taught full-stack developer who, in the past year and a half, has devoted myself to mastering the MERN stack through the guidance of The Odin Project. Proficient in these technologies, I am confident in applying them in a skillful and respectable manner.</p>
-      </div>
+        <p>I’ve trained myself to be a full-stack developer over the last eighteen months. Using the Odin Project, I’ve devoted myself to mastering the MERN stack. Now proficient in this arena, I’m eager to apply my skills towards web development</p>
+    </div>
       <div className="skillsImgsMain">
         <div className="skillComp">
           <img className="skillImgs" src="/skill-logos/js.png" alt="" />
