@@ -1,8 +1,6 @@
-# React + Vite
+Portfoilio Project
+This is a website I made to host all of the diffrent aspects of my career and some other personal information that I feel best demonstrates my abilities.
+I used React, Javascript, CSS, and HTML to make this project.
+I had a great time making the CSS for this project. It should be compatible with most all devices used currently in 2024.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a link to the live version. https://sparkling-kitsune-3d6895.netlify.app/
