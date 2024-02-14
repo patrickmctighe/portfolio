@@ -23,6 +23,12 @@ export default function Projects() {
       </div>
 
       <div className="proj">
+        <Link className="projA" to="synth">
+          <img className="projImg" src="/project-images/synthLogo3.png" alt="" />
+          <div className="projTitle">Web Audio Synth</div>
+        </Link>
+      </div>
+      <div className="proj">
         <Link className="projA" to="planit">
           <img className="projImg" src="/project-images/planIt.png" alt="" />
           <div className="projTitle">Task App</div>
@@ -64,12 +70,6 @@ export default function Projects() {
         </Link>
       </div>
 
-      <div className="proj">
-        <Link className="projA" to="weather">
-          <img className="projImg" src="/project-images/weather.png" alt="" />
-          <div className="projTitle">API Weather App</div>
-        </Link>
-      </div>
       <div className="proj">
         <Link
           className="projA"

@@ -15,6 +15,7 @@ import Weather from "../project-pages/Weather";
 import Etchy from '../project-pages/Etchy';
 import Letter from './Letter';
 import{ useTheme } from '../theme/ThemeContext';
+import Synth from '../project-pages/Synth';
 
 export default function SiteBody() {
   const location = useLocation();
@@ -43,7 +44,7 @@ export default function SiteBody() {
             <Route path="/projects/armored" element={<Armored />} />
             <Route path="/projects/chatr" element={<Chatr />} />
             <Route path="/projects/elden" element={<Elden />} />
-            <Route path="/projects/climate" element={<Climate />} />
+            <Route path="/projects/synth" element={<Synth />} />
             <Route path="/projects/members" element={<Members />} />
             <Route path="/projects/planit" element={<PlanIt />} />
             <Route path="/projects/weather" element={<Weather />} />
