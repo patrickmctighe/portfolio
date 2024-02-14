@@ -47,7 +47,7 @@ export default function SiteBody() {
             <Route path="/projects/synth" element={<Synth />} />
             <Route path="/projects/members" element={<Members />} />
             <Route path="/projects/planit" element={<PlanIt />} />
-            <Route path="/projects/weather" element={<Weather />} />
+            <Route path="/projects/climate" element={<Climate />} />
             <Route path="/projects/etchy" element={<Etchy />} />
              <Route path="/projects/*" element={<Projects />} />
           </Routes>
