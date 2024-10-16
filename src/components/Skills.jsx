@@ -7,9 +7,29 @@ export default function Skills() {
         <p>I’ve trained myself to be a full-stack developer over the last eighteen months. Using the Odin Project, I’ve devoted myself to mastering the MERN stack. Now proficient in this arena, I’m eager to apply my skills towards web development</p>
     </div>
       <div className="skillsImgsMain">
+      <div className="skillComp">
+          <img className="skillImgs" src="/skill-logos/next-js.svg" alt="" />
+          <div className="skillTitle">Next.js</div>
+        </div>
+        <div className="skillComp">
+          <img className="skillImgs" src="/skill-logos/react1.png" alt="" />
+          <div className="skillTitle">React</div>
+        </div>
         <div className="skillComp">
           <img className="skillImgs" src="/skill-logos/js.png" alt="" />
           <div className="skillTitle">JavaScript</div>
+        </div>
+        <div className="skillComp">
+          <img className="skillImgs" src="/skill-logos/p5js.png" alt="" />
+          <div className="skillTitle">p5.js</div>
+        </div>
+        <div className="skillComp">
+          <img className="skillImgs" src="/skill-logos/ts.png" alt="" />
+          <div className="skillTitle">Typescript</div>
+        </div>
+        <div className="skillComp">
+          <img className="skillImgs" src="/skill-logos/vite.png" alt="" />
+          <div className="skillTitle">Vite</div>
         </div>
         <div className="skillComp">
           <img className="skillImgs" src="/skill-logos/html.png" alt="" />
@@ -23,10 +43,7 @@ export default function Skills() {
           <img className="skillImgs" src="/skill-logos/node.png" alt="" />
           <div className="skillTitle">Node.js</div>
         </div>
-        <div className="skillComp">
-          <img className="skillImgs" src="/skill-logos/react1.png" alt="" />
-          <div className="skillTitle">React</div>
-        </div>
+       
         <div className="skillComp">
           <img className="skillImgs" src="/skill-logos/ex.png" alt="" />
           <div className="skillTitle">express</div>
@@ -47,14 +64,8 @@ export default function Skills() {
           <img className="skillImgs" src="/skill-logos/tailwind1.png" alt="" />
           <div className="skillTitle">Tailwind CSS</div>
         </div>
-        <div className="skillComp">
-          <img className="skillImgs" src="/skill-logos/vite.png" alt="" />
-          <div className="skillTitle">Vite</div>
-        </div>
-        <div className="skillComp">
-          <img className="skillImgs" src="/skill-logos/github3.png" alt="" />
-          <div className="skillTitle">GitHub</div>
-        </div>
+       
+       
         <div className="skillComp">
           <img className="skillImgs" src="/skill-logos/jest.png" alt="" />
           <div className="skillTitle">Jest</div>
@@ -71,20 +82,14 @@ export default function Skills() {
           <img className="skillImgs" src="/skill-logos/npm1.png" alt="" />
           <div className="skillTitle">npm</div>
         </div>
-        <div className="skillComp">
-          <img className="skillImgs" src="/skill-logos/git.png" alt="" />
-          <div className="skillTitle">git</div>
-        </div>
+        
         <div className="skillComp">
           <img className="skillImgs" src="/skill-logos/netlify.png" alt="" />
           <div className="skillTitle">Netlify</div>
         </div>
+      
         <div className="skillComp">
-          <img className="skillImgs" src="/skill-logos/render.png" alt="" />
-          <div className="skillTitle">render</div>
-        </div>
-        <div className="skillComp">
-          <img className="skillImgs" src="/skill-logos/jwt1.svg" alt="" />
+          <img className="skillImgs" src="/skill-logos/gimp-logo.svg" alt="" />
           <div className="skillTitle">GIMP</div>
         </div>
       </div></div>
